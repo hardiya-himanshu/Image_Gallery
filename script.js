@@ -6,7 +6,6 @@ scrollContainer.addEventListener("wheel", (e)=>{
     e.preventDefault();
     scrollContainer.scrollLeft+=3*(e.deltaY);
     scrollContainer.style.scrollBehavior = "smooth";
-
 })
 
 prevBtn.addEventListener("click", ()=>{
